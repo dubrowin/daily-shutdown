@@ -39,4 +39,7 @@ And the contents of the file look like:
     NOOFF="Nov 19, 2023 - Dec 4, 2023"
 
 So here it will not shutdown between Nov 19th and Dec 4th of 2023.
-    
+
+## A Note about GNU Screen
+
+I found that if I run GNU Screen, then it wouldn't capture the timing right. Therefore, I specifically look for GNU Screen. If you have a GNU Screen running, then it will use the idle times from there and ignore any others.
